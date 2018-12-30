@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="moneycontrolcheck" thread-count="3">
+    <test name="tests moneycontrolrelated">
+        <classes>
+            <class name="tests.HomeTest">
+            <methods>
+                <include name="verifyStockLink"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
