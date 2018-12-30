@@ -13,7 +13,7 @@ public class HomeTest {
     @BeforeSuite
     public void setUp()
     {
-        System.setProperty("webdriver.chrome.driver","G:\\Download_Stuff\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\E004146\\Downloads\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://www.moneycontrol.com/");
         driver.manage().window().maximize();
