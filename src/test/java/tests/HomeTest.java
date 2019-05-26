@@ -24,6 +24,7 @@ public class HomeTest {
     public void verifyStockLink()
     {
      HomeFlow.verifyStockLinkText(driver);
+         System.out.println("test");
     }
 
     @Test
@@ -35,6 +36,7 @@ public class HomeTest {
     @AfterSuite
     public void close()
     {
+         System.out.println("test");
         driver.close();
     }
 }
