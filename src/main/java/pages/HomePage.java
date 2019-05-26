@@ -33,6 +33,7 @@ public class HomePage {
     }
     public static WebElement getSignUpLink(WebDriver obj) {
         element=obj.findElement(signUp);
+         System.out.println("practice");
         return element;
     }
 }
