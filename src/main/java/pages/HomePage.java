@@ -15,6 +15,7 @@ public class HomePage {
 
     public static WebElement getSearchField(WebDriver obj) {
         element=obj.findElement(searchField);
+        System.out.println("practice");
         return element;
     }
     public static WebElement getStockLink(WebDriver obj) {
