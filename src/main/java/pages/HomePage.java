@@ -24,6 +24,7 @@ public class HomePage {
     }
     public static WebElement getFeedbackLink(WebDriver obj) {
         element=obj.findElement(feedBack);
+         System.out.println("practice");
         return element;
     }
     public static WebElement getLogInLink(WebDriver obj) {
