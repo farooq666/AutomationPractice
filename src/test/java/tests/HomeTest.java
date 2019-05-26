@@ -29,6 +29,7 @@ public class HomeTest {
     @Test
     public void verifyFeedbackLink(){
         HomeFlow.verifyFeedbackLink(driver);
+        System.out.println("test");
     }
 
     @AfterSuite
