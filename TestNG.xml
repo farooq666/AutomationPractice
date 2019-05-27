@@ -9,6 +9,7 @@
                 </methods>
             </class>
             
+            
             <class name="tests.SubscriptionTest">
                 <methods>
                     <include name="clickSubscriptionLink"/>
